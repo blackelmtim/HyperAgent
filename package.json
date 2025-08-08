@@ -16,6 +16,8 @@
     "format": "prettier --write 'src/**/*.ts'",
     "cli": "yarn ts-node -r tsconfig-paths/register src/cli/index.ts",
     "example": "yarn ts-node -r tsconfig-paths/register"
+    "start": "node dist/server.js"
+
   },
   "bin": {
     "hyperagent-cli": "cli.sh"
@@ -54,6 +56,7 @@
     "minimatch": "^9.0.3",
     "ora": "5.4.1",
     "playwright": "npm:rebrowser-playwright@1.49.1",
+    "run: yarn add express",
     "readline": "^1.3.0",
     "sharp": "^0.34.1",
     "turndown": "^7.2.0",
